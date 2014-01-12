@@ -9,7 +9,7 @@ PATH=$PATH:$MINGW_PATH \
     nsiswrapper --run \
 	--name "CPU miner" \
 	--outfile "$OUT_EXE" \
-	minerd.exe \
+	minerd2.exe \
 	$MINGW_PATH/libcurl-4.dll=libcurl-4.dll	\
 	$MINGW_PATH/pthreadgc2.dll=pthreadgc2.dll \
 	$MINGW_PATH/libidn-11.dll=libidn-11.dll \
