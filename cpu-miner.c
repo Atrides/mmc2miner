@@ -692,8 +692,8 @@ static void show_usage(void)
 {
 	int i;
 
-	printf("minerd version %s\n\n", VERSION);
-	printf("Usage:\tminerd [options]\n\nSupported options:\n");
+	printf("minerd2 version %s\n\n", VERSION);
+	printf("Usage:\tminerd2 [options]\n\nSupported options:\n");
 	for (i = 0; i < ARRAY_SIZE(options_help); i++) {
 		struct option_help *h;
 
