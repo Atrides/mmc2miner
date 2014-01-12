@@ -26,6 +26,6 @@ Solo mining:
 
 Pool mining:
 	./minerd --url http://erebor.dwarfpool.com:8080/ --user MMCADDRESS --threads 2
-Erebor-Ports(EU): 8080,8081,8082,8083
-Moria-Ports(US): 8080
+Erebor-Ports(EU) erebor.dwarfpool.com: 8080,8081,8082,8083
+Moria-Ports(US) moria.dwarfpool.com: 8080
 
