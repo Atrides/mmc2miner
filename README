@@ -17,15 +17,15 @@ Basic *nix or MinGW64 build instructions:
 	make
 
 Usage instructions:  
-	Run "minerd --help" to see options. 
+	Run "minerd2 --help" to see options. 
 
 On Linux, performance may be slightly increased by reducing system swappiness with 'echo 5 | sudo tee /proc/sys/vm/swappiness > /dev/null' command. Also you may consider turning swap off entirely with 'sudo swapoff -a' if your system has enough RAM.
 
 Solo mining:
-	./minerd --url http://127.0.0.1:RPCPORT/ --user RPCUSER --pass RPCPASSWORD --threads 2
+	./minerd2 --url http://127.0.0.1:RPCPORT/ --user RPCUSER --pass RPCPASSWORD --threads 2
 
 Pool mining:
-	./minerd --url http://erebor.dwarfpool.com:8080/ --user MMCADDRESS --threads 2
+	./minerd2 --url http://erebor.dwarfpool.com:8080/ --user MMCADDRESS --threads 2
 Erebor-Ports(EU) erebor.dwarfpool.com: 8080,8081,8082,8083
 Moria-Ports(US) moria.dwarfpool.com: 8080
 
