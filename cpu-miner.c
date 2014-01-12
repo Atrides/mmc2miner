@@ -1,4 +1,3 @@
-
 /*
  * Copyright 2010 Jeff Garzik
  *
@@ -29,7 +28,7 @@
 #include "compat.h"
 #include "miner.h"
 
-#define PROGRAM_NAME		"minerd"
+#define PROGRAM_NAME		"minerd2"
 #define DEF_RPC_URL		"http://127.0.0.1:8332/"
 #define DEF_RPC_USERNAME	"rpcuser"
 #define DEF_RPC_PASSWORD	"rpcpass"
